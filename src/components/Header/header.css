@@ -1,0 +1,357 @@
+.container-fluid-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: row;
+  align-items: stretch;
+  height: 10vh;
+
+}
+.container-fluid-2 {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  align-items: left;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 10vh;
+  margin-top: 1%;
+
+}
+
+.container-fluid-1 div {
+  padding: 0px;
+}
+
+.box1 {
+  flex: 1;
+
+}
+
+.box1 .megalogo {
+  margin-left: 20px;
+
+  color: orange;
+  font-size: 35px;
+  font-weight: bold;
+  border: none;
+}
+
+.box2 {
+  flex: 3.5;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2%;
+
+}
+
+.box2 button {
+  background-color: orange;
+  padding: 8px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+}
+
+.searchbar {
+  width: 50%;
+
+  padding: 8px;
+
+  border-radius: 4px solid black;
+
+}
+
+.box3 {
+
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.box3 .headersignup {
+  background-color: green;
+  padding: 11px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.box3 .headerlogin {
+  background-color: orange;
+  padding: 11px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.megafpomap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  height: 50vh;
+  position: relative;
+  margin-top: 10%;
+}
+.megafpofooter{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  justify-content: space-evenly;
+  margin-top: 10%;
+}
+.megafpofootersection>h1{
+color: green;
+cursor: pointer;
+}
+.megafpofootersection>p{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-fluid-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    height: 30vh;
+    width: 100%;
+
+  }
+  .container-fluid-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    flex-direction: row;
+  
+    height: 10vh;
+    margin-top: 10%;
+  
+  }
+  .container-fluid-2>h2{
+    margin-left: 7%;
+
+  }
+
+  .box1 {
+    flex: 1;
+
+  }
+
+  .box1 .megalogo {
+    color: orange;
+    font-size: 40px;
+    font-weight: bold;
+    border: none;
+  }
+
+  .box2 {
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2%;
+    width: 100%;
+
+  }
+
+  .box2 button {
+    background-color: orange;
+    padding: 8px;
+
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .box2 .searchbar {
+    width: 72%;
+    padding: 8px !important;
+    ;
+    border-radius: 4px solid black;
+
+  }
+
+  .box3 {
+
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-top: 7%;
+  }
+
+  .box3 .headersignup {
+    background-color: green;
+    padding: 11px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .box3 .headerlogin {
+    background-color: orange;
+    padding: 11px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .megafpomap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  width: 100%;
+    height: 50vh;
+  position: absolute;
+    margin-top: 20%;
+  }
+  .mapwrapper{
+    max-width: fit-content;
+    position :absolute
+  }
+  .megafpofooter{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 30rem;
+    text-align: left;
+  }
+}
+
+@media (min-width:769px) and (max-width: 960px) {
+  .container-fluid-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: row;
+
+    height: 10vh;
+
+  }
+
+  .container-fluid-1 div {
+    padding: 0px;
+  }
+
+  .box1 {
+    flex: 1;
+
+  }
+
+  .box1 .megalogo {
+    margin-left: 10px;
+    color: orange;
+    font-size: 35px;
+    font-weight: bold;
+    border: none;
+  }
+
+  .box2 {
+    flex: 3.5;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2%;
+
+  }
+
+  .box2 button {
+    background-color: orange;
+    padding: 8px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+  }
+
+  .searchbar {
+    width: 50%;
+
+    padding: 8px;
+
+    border-radius: 4px solid black;
+
+  }
+
+  .box3 {
+
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+  }
+
+  .box3 .headersignup {
+    background-color: green;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .box3 .headerlogin {
+    background-color: orange;
+    padding: 8px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .megafpomap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    height: 50vh;
+    position: relative;
+    margin-top: 12%;
+  }
+  .megafpofooter{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 10%;
+  }
+}

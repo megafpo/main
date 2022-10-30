@@ -1,0 +1,49 @@
+.verificationmaindiv{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto 0;
+        flex-direction: column;
+        text-align: center;
+    
+}
+.verificationHeader{
+    height: 20vh;
+    margin-left: 10%;
+    color: orange;
+}
+.otpbutton{
+     background:orange;
+    border: 1px solid #1877f2;
+    color: #f5eeee;
+    font-size:20px;
+    padding: 0.5rem;
+   margin-top: 10px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    width: 72%;
+    font-weight: 800;
+
+}
+.verifynumberheading{
+    color: orange;
+    font-size: 35px;
+    font-weight: 800;
+}
+.numberverify > input {
+    border-radius: 8px;
+    border: 1px solid black;
+    outline: none;
+    color: #1d2129;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: -16px;
+    width: 105%;
+    font-size: 1rem;
+}
+.verifymessageforno{
+    color: black;
+    font-size: 20px;
+}

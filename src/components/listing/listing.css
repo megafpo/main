@@ -1,0 +1,176 @@
+.dashboardformHeader{
+    height: 8vh;
+    margin-left: 10%;
+    color: orange;
+}
+.fieldssformmaindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    width: 100%!important;
+}
+.fieldssformss input {
+padding: 7px;
+width: 63%;
+
+}
+.fieldssformss select{
+    padding: 7px;
+    width: 67%;
+   
+}
+
+.fieldssforminnerdivstyel{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: auto;
+    text-align: left;
+    margin-left: 15%;
+    
+}
+.fieldssforminnerdivsecondstyle{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: auto;
+    text-align: left;
+    margin-left: -15%;
+    margin-top: -0%;
+}
+.fieldssformss{
+ display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+    box-shadow: 20px 20px 50px grey;
+    width: 80%;
+    flex-wrap: nowrap;
+    
+}
+.fieldssformmaindiv{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     margin: auto 0;
+     width: 80%;
+    
+}
+
+ .fieldssformersubmitbutton{
+    background-color: orange;
+    color: white;
+    font-size: 29px;
+    border-radius: 6px;
+    border: none;
+    width: 38%;
+    cursor: pointer;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+} 
+.fieldlistingformheight{
+    height: 75vh;
+}
+
+@media only screen and (max-width: 768px){
+    
+.dashboardHeader{
+    display: flex;
+    display: flex;
+    height: 20vh;
+    margin-left: 0px;
+    color: orange;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.logoutbuttanforclear{
+    background: orange;
+    border: 1px solid #1877f2;
+    color: #f5eeee;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    width: 90px;
+    font-weight: 800;
+    height: 5vh;
+    cursor: pointer;
+}
+.fieldssformmaindiv{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin: auto 0;
+     width: 80%;
+    
+}
+.fieldssformss{
+    display: flex;
+      flex-direction: column!important;
+       justify-content: center;
+       align-items: center;
+       margin: auto 0;
+       box-shadow: 20px 20px 50px grey;
+       width: 80%;
+       flex-wrap: nowrap;
+   }
+   .fieldssforminnerdivstyel{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: auto;
+    text-align: left;
+    width: 140%;
+    margin-left: 9%;
+    margin-top: 5%;
+  
+}
+.fieldssforminnerdivsecondstyle{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin: auto;
+    text-align: left;
+    width: 140%;
+    margin-left: 9%;
+   
+
+}
+ .fieldssformersubmitbutton{
+    background-color: orange;
+    color: white;
+    font-size: 23px;
+    border-radius: 6px;
+    border: none;
+    width: 56%;
+    cursor: pointer;
+    font-weight: 800;
+} 
+.fieldssformss input {
+    padding: 10px;
+    width: 52%;
+    }
+    .fieldssformss select{
+        padding: 10px;
+        width: 55%;
+    }
+    .fieldlistingformheight{
+        height: 115vh!important;
+    }
+}
